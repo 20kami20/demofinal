@@ -1,6 +1,7 @@
 package decorator;
 
 import model.Course;
+import model.CourseBuilder;
 
 public abstract class CourseDecorator extends Course {
     protected final Course base;

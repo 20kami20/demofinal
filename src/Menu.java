@@ -59,7 +59,8 @@ public class Menu {
         System.out.print("Instructor name: ");
         String instructor = scanner.nextLine();
 
-        Course.CourseBuilder builder = new Course.CourseBuilder(title, instructor);
+        CourseBuilder builder = new CourseBuilder(title, instructor);
+
 
         while (true) {
             System.out.print("Add module? (y/n): ");
